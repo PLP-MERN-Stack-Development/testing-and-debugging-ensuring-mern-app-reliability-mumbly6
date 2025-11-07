@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+*.log
+*.regtrans-ms
+*.blf
+*.ini
+*.dat
+*.log1
+*.log2
+*.TM.blf
+*.TMContainer*
+
+# User-specific files
+.ssh/
+.bash_history
+.codeium/
+.windsurf/
+
+# Project specific
+/.env
+/config/config.env
+
+# Ignore all files in the root directory
+/*
+
+# But include these directories
+!/backend/
+!/frontend/
+!/README.md
+
+# Include all files in backend and frontend
+!/**/*
+
+# Then exclude specific patterns in those directories
+**/node_modules/
+**/.env
+**/.DS_Store
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.pnp
+**/.pnp.js
+**/build/
+**/dist/
+**/coverage/
+**/.next/
+**/.cache/
+**/.vscode/
+**/.idea/
